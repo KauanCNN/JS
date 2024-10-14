@@ -1,0 +1,35 @@
+body{
+    background: #070F2B;
+}
+
+.calculator{
+    background: #535C91;
+    margin: 5vw auto;
+    border: 2px solid black;    
+    height: 13vw;
+    filter: drop-shadow(0.3rem 0.3rem 0.5rem #9290C3);
+}
+
+td .resultado{
+    width: 95%;
+    height: 2vw;
+    text-align: right;
+    background: #1B1A55;
+    color: #9290C3;
+    filter: drop-shadow(0 0 0.1em #fff)
+}
+
+.calc-btn{
+    min-width: 40px;
+    min-height: 20px;
+    width: 2.4vw;
+    height: 1.4vw;
+    border: 2px solid black;    
+    background: #9290C3;
+    color: #1B1A55;
+    filter: drop-shadow(0 0 0.1em #fff)
+}
+
+.calc-btn:hover{
+    background: rgba(83, 92, 145, 0.5);
+}
